@@ -1,0 +1,71 @@
+h1 {
+    height: 51px;
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 29px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    background-color: maroon;
+    color: white;
+    padding-left: 15px;
+}
+
+#firstSpan {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+#firstHR {
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+img {
+    width: 39px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    height: 53px;
+    padding-top: 20px
+}
+
+body {
+
+    background-color: darkgray;
+
+}
+
+button {
+    background-color: black;
+    size: 50;
+    color: white;
+    font-size: larger;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.codingJourney>h2 {
+    font-size: 53px;
+    font-family: system-ui;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+
+.codingJourney>p {
+    font-size: large;
+    font-family: cursive;
+    padding-left: 47px;
+    text-align: justify;
+    padding-top:0px;
+}
