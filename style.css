@@ -10,6 +10,9 @@ h1 {
     background-color: maroon;
     color: white;
     padding-left: 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    text-shadow: 2px 8px 10px black;
 }
 
 #firstSpan {
@@ -29,6 +32,9 @@ img {
     height: 33px;
     padding: 0;
     margin: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 4px 10px black;
 }
 
 div {
@@ -48,24 +54,46 @@ button {
     color: white;
     font-size: larger;
     font-family: cursive;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 2px 4px maroon;
 }
 
 button:hover {
     background-color: whitesmoke;
     color: black;
+    box-shadow: 2px 4px gray;
 }
 
-.codingJourney>h2 {
+.paragraph>h2 {
+  
     font-size: 53px;
     font-family: system-ui;
     padding-left: 30px;
     padding-bottom: 0px;
+    margin-bottom:0px;
 }
 
-.codingJourney>p {
+.designP {
     font-size: large;
-    font-family: cursive;
+    font-family: Geneva, Verdana, sans-serif;
     padding-left: 47px;
     text-align: justify;
-    padding-top:0px;
+    padding-top: 0px;
+}
+
+footer {
+    margin-top: 2000px;
+    color: rgb(204, 204, 204);
+    background-color: black;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 5px;
+
+}
+
+a {
+    color: rgb(204, 204, 204);
+    font-weight: 20px;
 }
